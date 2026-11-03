@@ -6,10 +6,10 @@
     "compatibility_flags": ["nodejs_compat"],
     "triggers": {
         "crons": [
-            "*/1 * * * *"
-        ]
+            "* * * * *",
+        ],
     },
   	"vars": {
-        "TEST_VAR": "测试中文值"
-  	}
+        "TEST_VAR": "测试中文值",
+  	},
 }
