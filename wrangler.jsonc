@@ -1,0 +1,9 @@
+{
+    "main": "worker.js",
+    "upload_source_maps": true,
+    "compatibility_date": "2026-11-03",
+    "compatibility_flags": ["nodejs_compat"],
+  	"vars": {
+        "TEST_VAR": "测试中文值"
+  	}
+}
