@@ -4,16 +4,23 @@
     "upload_source_maps": true,
     "compatibility_date": "2026-11-03",
     "compatibility_flags": ["nodejs_compat"],
-	"observability": {
-		"enabled": true,
-	},
+    "observability": {
+        "enabled": true,
+    },
     "triggers": {
         "crons": [
             "*/1 * * * *",
         ],
     },
-  	"vars": {
+    "vars": {
         "TEST_VAR": "测试中文值",
-		"VAR2": "VAR2_VALUE",
-  	},
+        "VAR2": "VAR2_VALUE",
+    },
+    "d1_databases": [
+        {
+            "binding": "prod_d1",
+            "database_name": "prod-d1",
+            "database_id": "5ea3e86c-85e1-4bf5-8557-bae7cb042f69",
+        },
+    ],
 }
