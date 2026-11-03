@@ -9,10 +9,11 @@
 	},
     "triggers": {
         "crons": [
-            "* * * * *",
+            "*/1 * * * *",
         ],
     },
   	"vars": {
         "TEST_VAR": "测试中文值",
+		"VAR2": "VAR2_VALUE",
   	},
 }
