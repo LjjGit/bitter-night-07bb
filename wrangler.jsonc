@@ -19,8 +19,8 @@
     "d1_databases": [
         {
             "binding": "prod_d1",
-            "database_name": "prod-d1",
-            "database_id": "5ea3e86c-85e1-4bf5-8557-bae7cb042f69",
+            "database_name": "database0",
+            "database_id": "9db15cf2-0f05-418c-bdb9-820ccaf90336",
         },
     ],
 }
