@@ -4,6 +4,9 @@
     "upload_source_maps": true,
     "compatibility_date": "2026-11-03",
     "compatibility_flags": ["nodejs_compat"],
+	"observability": {
+		"enabled": true,
+	},
     "triggers": {
         "crons": [
             "* * * * *",
