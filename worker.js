@@ -20,3 +20,7 @@ export default {
 		console.log("cron processed" + Date.now());
 	},
 };
+
+export async function scheduled(controller, env, ctx) {
+  console.log("export fn scheduled. cron processed " + Date.now());
+}
